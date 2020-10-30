@@ -1,7 +1,7 @@
 ## DNA Detective
 
 ### Overview
-DNA Detective investigates GenBank files and follows clues through feature metadata to identify possible protein suspects asynchronously. 
+DNA Detective investigates GenBank files and follows clues through feature metadata to identify protein suspects asynchronously. 
 
 The tool supports user inputs of up to 2000 bases and stores the results of previous searches for review. The matching process happens asynchronously and results update the interface as they become available. Because the first located protein is returned and the proteins are searched in a randomized order, results may vary for the same query across searches. If a sequence spans multiple proteins, the protein that contains the start of the sequence is returned.
 
