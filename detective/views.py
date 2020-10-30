@@ -33,7 +33,7 @@ def create(request):
         submission.status = 'IN_PROGRESS'
         submission.save()
 
-        #Add to protein lookup queue
+        #Start a protein lookup job
         run_sequence_search.delay(id=submission.id, query=submission.query)
 
     return JsonResponse(serialize(submission))

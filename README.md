@@ -18,5 +18,7 @@ sh dev.sh
 Navigate to [http://localhost:3000/](http://localhost:3000/)
 
 ### Production
-This application is hosted by Heroku and is available here: [DNA Detective](https://frozen-everglades-63855.herokuapp.com/). Note: The first request may be slow as Heroku cycles on and off with activity but subsequent requests will run quickly. 
+This application is hosted by Heroku and is available here: [DNA Detective](https://frozen-everglades-63855.herokuapp.com/). Note: The first request may be slow as Heroku cycles on and off with activity but subsequent requests will run quickly.
+
+
 
