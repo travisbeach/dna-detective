@@ -1,0 +1,9 @@
+Django>=2.2,<2.3 # Install latest bugfix release of Django 2.2
+psycopg2-binary
+dj-database-url
+django-redis-cache
+django-rq
+django-debug-toolbar
+whitenoise
+gunicorn
+biopython
